@@ -7,8 +7,8 @@
         body {
             background: rgb(98, 128, 145);
             background-size: 100%;
-            font-family: Arial, sans-serif;
-            text-align: center;
+            font-family: sans-serif;
+            text-align: left;
         }
 
         .container {
@@ -19,7 +19,7 @@
         }
 
         h1 {
-            font-size: 36px;
+            font-size: 60px;
             font-weight: bold;
             color: white;
             margin: 20px 0;
@@ -31,6 +31,7 @@
             font-weight: bold;
             color: white;
             margin: 20px 0;
+            margin-top: 80px;
 
         }
 
@@ -58,7 +59,12 @@
             margin: 0 20px;
         }
 
-        .link:hover {
+        a{
+            color: white;
+            font-family: sans-serif;
+            text-decoration: none;  
+        }
+        a:hover {
             color: rgb(91, 91, 91);
         }
 
@@ -74,24 +80,32 @@
 </head>
 
 <body>
-    <div class="container">
-        <h1>Projects</h1>
-        <p>Hi, my name is Ethan Labbe and I am an Electrical Engineer. I have a passion for learning and research
-            that solves real-world problems and make a positive impact on people's lives. I have a strong
-            foundation in Engineering and a wide variety of skills from circuit control to programming that I have.
-            Learned at the University of Alberta. I am currently focused on researching nuclear fusion energy along
-            with the development of a predictive algorithm using machine learning (look at my projects to learn more)
-        </p>
-    </div>
     <div class="links">
         <a class="link" href="index.html">Home</a>
-        <a class="link" href="projects.html">Projects</a>
+        <a class="link" href="about.html">About</a>
         <a class="link" href="contact.html">Contact</a>
 
     </div>
-    <h2>Resume</h2>
-    <p>Download my <a class="link2" href="Ethan Labbe Resume.pdf">resume</a> for more information about my skills and
-        experience.</p>
+    <div class="container">
+        <h1>Projects:</h1>
+        <h2>Deus</h2>
+        <p>Deus is a Predictive algorithm designed to use machine learning to predict
+            future trends from a given set of data. This project is currently my main focus
+            and is a team project. Deus is currently in a preliminary stage... more to come soon</p>
+        
+        <h2><a href="DRAposter.pdf">Underwater Autonomous Vehicle Control System (UAVCS)</a></h2>
+        <p> UAVCS is a python program written with the help of Dr. James Myatt for the Dean's Research
+            Award. This project is the creation a control simulation for a 6-degree of freedom underwater
+            vehicle, the project focuses on the scopes of control theory, python programming and underwater
+            vehicle dynamics. From the physics of an underwater vehicle I created graphical simulations using
+            a system of differential equation solver to determine the depth of the vehicle for varying conditions.
+            The autonomous vehicle design and simulations can be seen below.
+        </p>
+        <img src="UAVCAD.jpg" alt="CAD design of vehicle" width="250" height="166">
+        <img src="controlplot.jpg.png" alt="control plot" width="225" height="200">
+        <img src="Divingplot.jpg.png" alt="diving plot" width="225" height="200">
+
+    </div>
 </body>
 
 </html>
