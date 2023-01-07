@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ethan Labbe</title>
     <link rel="icon" type="image/x-icon" href="logo.png">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -13,180 +13,23 @@
         href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@400;600&family=Exo+2:wght@600&family=Oxygen:wght@700&family=Quicksand:wght@600&family=Righteous&family=Source+Code+Pro&display=swap"
         rel="stylesheet">
 
+<link rel="stylesheet" href="style.css">
 
-    <style>
-         @import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@400;600&family=Exo+2:wght@600&family=Oxygen:wght@700&family=Quicksand:wght@600&family=Righteous&family=Source+Code+Pro&display=swap');
-        
-         h1 {
-            font-size: 7rem;
-            font-family: 'Chakra Petch', sans-serif;
-            margin: 0;
-        }
-
-        h2 {
-            font-size: 5rem;
-            font-family: 'Chakra Petch', sans-serif;
-            margin: 0;
-        }
-
-        h3{
-            font-size: 4rem;
-            font-family: 'Chakra Petch', sans-serif;
-            margin: 20px;
-            margin-top: 30px;
-
-        }
-
-        .container{
-            position: absolute;
-            display: flex;
-            flex-direction: column;
-            align-items:flex-start;
-            min-height: 400px;
-            top:300px;
-            margin-left: 150px;
-        }
-
-        p {
-            font-size: 1.5rem;
-            font-family: 'Source Code Pro', monospace;
-            margin-left: 70px;
-        }
-
-        p1{
-            font-size: 2rem;
-            font-family: 'Source Code Pro', monospace;
-            margin-left: 0px; 
-            padding-bottom: 50px;
-        }
-
-        p2{
-            font-size: 2.5rem;
-            font-family: 'Chakra Petch', sans-serif;
-            padding-bottom: 0;
-        }
-
-        body {
-            margin: 0;
-            color: white;
-            background: #1f2122;
-            overflow-x: hidden;
-            
-        }
-
-        section {
-            position: relative;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            min-height: 400px;
-            padding-top: 20px;
-        }
-
-        img{
-            margin-left: 20px;
-        }
-
-        a{
-            color: white;
-            text-decoration: none;  
-        }
-
-        .blue {
-            background: #3c31dd;
-        }
-
-        .red {
-            background: #ff1100;
-        }
-
-
-        .dark {
-            background: #0f0f10;
-        }
-
-        .yellow{
-            background: #ff9423;
-        }
- 
-        /* SVG background image via https://haikei.app/ */
-
-        .spacer {
-            width: 100%;
-            background-repeat: no-repeat;
-            background-position: center;
-            background-size: cover;
-            aspect-ratio: 900/600;
-        }
-
-        .spacer2 {
-            width: 100%;
-            background-repeat: no-repeat;
-            background-position: center;
-            background-size: cover;
-            aspect-ratio: 900/200;
-        }
-
-        .center{
-            display: flex;
-            justify-content: center;
-            align-items: center;
-        }
-        
-        .arrow{
-            display: block;
-            margin: auto;
-        }
-        .layer1 {
-            background-image: url('./upwave.svg');
-        }
-        
-        .layer2 {
-            background-image: url('./rightstep.png');
-        }
-
-        .layer3{
-            background-image: url('./btmwave.svg');
-        }
-        .layer4{
-            background-image: url('./dwnwave.svg');
-        }
-
-        .flip {
-            transform: rotate(180deg);
-        }
-        .rotate{
-            transform: rotate(270deg);            
-        }
-
-        .invert{
-            color: inver;
-        }
-
-        .link {
-            color:rgb(254, 254, 254);
-            text-decoration: underline;
-        }
-        a:hover{
-            color: rgb(91, 91, 91);
-        }
-
-
-    </style>
 </head>
 
 <body>
 
-    <div class="spacer layer2"> <img class="logo" src="logo.png" alt="logo" width="100" height="100"></div>
+    <div class="spacer layer2"> <img class="logo" src="logo.png" alt="logo" width="100px" max-height="100px"></div>
     <div class="container">
         <h1>Ethan Labbe</h1>
         <h2>Portfolio</h2>
     </div>
-    <img class="arrow" src="arrow.png" alt="arrow" width="100" height="100">
-    <div class="spacer layer1"></div>
+
+    <div class="spacer3"></div>
+    <div class="spacer2 layer1"></div>
         <section class="yellow">
             <h2>About Me</h2>
-            <p>Hi, my name is Ethan Labbe and I am a second year Electrical Engineer. I was born and raised
+            <p class="leftxt">Hi, my name is Ethan Labbe and I am a second year Electrical Engineer. I was born and raised
             in Edmonton, Alberta and have a passion for learning and research
             that solves real-world problems and makes a positive impact on people's lives. I have a strong
             foundation in Engineering and a wide variety of skills from circuit control to programming, that I have
@@ -200,6 +43,7 @@
 
     <section>
             <h2>Projects:</h2>
+            <div class="leftxt">
             <h3>Deus</h3>
             <p>Deus is a predictive algorithm designed to use machine learning to predict
                 future trends from a given set of data. This project is currently my main focus
@@ -213,6 +57,7 @@
                 a system of differential equations to determine the depth of the vehicle for varying conditions.
                 The autonomous vehicle CAD design and simulations can be seen below.
             </p>
+            </div>
     </section>
     <div class="center">
         <img src="UAVCAD.jpg" alt="CAD design of vehicle" width="250" height="166">
