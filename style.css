@@ -1,5 +1,20 @@
          @import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@400;600&family=Exo+2:wght@600&family=Oxygen:wght@700&family=Quicksand:wght@600&family=Righteous&family=Source+Code+Pro&display=swap');
 
+        /* mobile response */
+        @media screen and (max-width:1000px) {
+            .icon{
+                max-width: 15px;
+            }
+            .medpic{
+                max-width: 100px;
+            }
+
+            .logo{
+                max-width: 30px;
+            }
+        }
+
+
          h1 {
              font-size: 7vw;
              font-family: 'Chakra Petch', sans-serif;
@@ -65,8 +80,20 @@
 
          img {
              margin-left: 2vw;
-             max-width: 100%;
-             object-fit: scale-down;
+             object-fit:contain;
+         }
+
+         .icon {
+            width: 40px;
+         }
+
+         .medpic{
+            width:250px;
+            height:200px;
+         }
+
+         .logo{
+            width: 100px;
          }
 
          a {
@@ -125,7 +152,7 @@
 
          .leftxt {
              margin-left: 7vw;
-            margin-right: 7vw;
+             margin-right: 7vw;
 
          }
 
