@@ -1,0 +1,199 @@
+         @import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@400;600&family=Exo+2:wght@600&family=Oxygen:wght@700&family=Quicksand:wght@600&family=Righteous&family=Source+Code+Pro&display=swap');
+
+        /* mobile response */
+        @media screen and (max-width:1000px) {
+            .icon{
+                max-width: 15px;
+            }
+            .medpic{
+                max-width: 100px;
+            }
+
+            .logo{
+                max-width: 30px;
+            }
+        }
+
+
+         h1 {
+             font-size: 7vw;
+             font-family: 'Chakra Petch', sans-serif;
+             margin: 0;
+         }
+
+         h2 {
+             font-size: 5vw;
+             font-family: 'Chakra Petch', sans-serif;
+             margin: 0;
+         }
+
+         h3 {
+             font-size: 4vw;
+             font-family: 'Chakra Petch', sans-serif;
+             padding-top: 4vw;
+
+         }
+
+         .container {
+             position: absolute;
+             display: flex;
+             flex-direction: column;
+             align-items: flex-start;
+             top: 20vw;
+             padding-left: 8vw;
+         }
+
+         p {
+             font-size: 1.5vw;
+             font-family: 'Source Code Pro', monospace;
+             margin-left: 0px;
+         }
+
+         p1 {
+             font-size: 1.5vw;
+             font-family: 'Source Code Pro', monospace;
+             margin-left: 0px;
+             padding-bottom: 50px;
+         }
+
+         p2 {
+             font-size: 2.5vw;
+             font-family: 'Chakra Petch', sans-serif;
+             padding-bottom: 2vw;
+         }
+
+         body {
+             margin: 0;
+             color: white;
+             background: #1f2122;
+             overflow-x: hidden;
+         }
+
+         section {
+             position: relative;
+             display: flex;
+             flex-direction: column;
+             align-items: center;
+             min-height: 40vw;
+             padding-top: 2vw;
+         }
+
+         img {
+             margin-left: 2vw;
+             object-fit:contain;
+         }
+
+         .icon {
+            width: 40px;
+         }
+
+         .medpic{
+            width:250px;
+            height:200px;
+         }
+
+         .logo{
+            width: 100px;
+         }
+
+         a {
+             color: white;
+             text-decoration: none;
+         }
+
+         .blue {
+             background: #3c31dd;
+         }
+
+         .red {
+             background: #ff1100;
+         }
+
+
+         .dark {
+             background: #0f0f10;
+         }
+
+         .yellow {
+             background: #ff9423;
+         }
+
+         /* SVG background image via https://haikei.app/ */
+
+         .spacer {
+             width: 100%;
+             background-repeat: no-repeat;
+             background-position: center;
+             background-size: cover;
+             aspect-ratio: 900/600;
+         }
+
+         .spacer2 {
+             width: 100%;
+             background-repeat: no-repeat;
+             background-position: center;
+             background-size: cover;
+             aspect-ratio: 900/200;
+         }
+
+         .spacer3 {
+             width: 100%;
+             background-repeat: no-repeat;
+             background-position: center;
+             background-size: cover;
+             aspect-ratio: 900/150;
+         }
+
+         .center {
+             display: flex;
+             justify-content: center;
+             align-items: center;
+         }
+
+         .leftxt {
+             margin-left: 7vw;
+             margin-right: 7vw;
+
+         }
+
+         .arrow {
+             display: block;
+             margin: auto;
+         }
+
+         .layer1 {
+             background-image: url('./upwave1.svg');
+         }
+
+         .layer2 {
+             background-image: url('./rightstep2.png');
+         }
+
+         .layer3 {
+             background-image: url('./btmwave.svg');
+         }
+
+         .layer4 {
+             background-image: url('./dwnwave.svg');
+         }
+
+         .flip {
+             transform: rotate(180deg);
+         }
+
+         .rotate {
+             transform: rotate(270deg);
+         }
+
+         .invert {
+             color: inver;
+         }
+
+         .link {
+             color: rgb(254, 254, 254);
+             text-decoration: underline;
+         }
+
+         a:hover {
+             color: rgb(91, 91, 91);
+         }

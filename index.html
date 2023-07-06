@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0">
+    <title>Ethan Labbe</title>
+    <link rel="icon" type="image/x-icon" href="logo.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@400;600&family=Exo+2:wght@600&family=Oxygen:wght@700&family=Quicksand:wght@600&family=Righteous&family=Source+Code+Pro&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <div class="spacer layer2"> <img class="logo" src="logo.png" alt="logo"></div>
+    <div class="container">
+        <h1>Ethan Labbe</h1>
+        <h2>Portfolio</h2>
+    </div>
+
+    <div class="spacer3"></div>
+    <div class="spacer2 layer1"></div>
+    <section class="yellow">
+        <h2>About Me</h2>
+        <p class="leftxt">Hi, my name is Ethan Labbe and I am a second year Electrical Engineer. I was born and raised
+            in Edmonton, Alberta and have a passion for learning and research
+            that solves real-world problems and makes a positive impact on people's lives. I have a strong
+            foundation in Engineering and a wide variety of skills from circuit design to programming, that I have
+            learned at the University of Alberta. See my projects below to learn more about my work.
+        </p>
+        <h2>Resume</h2>
+        <p class="leftxt">Download my <a class="link" target="_blank" href="Ethan Labbe Resume.pdf">resume</a> for more information
+            about my skills and experience </p>
+    </section>
+    <div class="spacer2 layer4"></div>
+
+    <section>
+        <h2>Projects:</h2>
+        <div class="leftxt">
+            <h3>Python Automation</h3>
+            <p>This project is a general automation software designed to automate and streamline online processes. 
+                This project is being programmed in Python and incorporates applications of data collection,
+                web scraping and automation on top of the machine learning framework.
+                This project is currently in a preliminary stage... more to come soon.</p>
+
+            <h3><a target="_blank" href="DRAposter.pdf">Underwater Autonomous Vehicle Control Simulation (UAVCS)</a></h3>
+            <p> UAVCS is a python program written with the help of Dr. James Myatt for the Dean's Research
+                Award. This project is the creation a control simulation for a 6-degree of freedom underwater
+                vehicle, the project focuses on the scopes of control theory, python programming and underwater
+                vehicle dynamics. From the physics of an underwater vehicle I created graphical simulations by solving
+                a system of differential equations to determine the depth of the vehicle for varying conditions.
+                The autonomous vehicle CAD design and simulations can be seen below.
+            </p>
+        </div>
+    </section>
+    <div class="center">
+        <img class= "medpic" src="UAVCAD.jpg" alt="CAD design of vehicle">
+        <img class= "medpic" src="controlplot.jpg.png" alt="control plot">
+        <img class= "medpic" src="Divingplot.jpg.png" alt="diving plot" >
+    </div>
+    <div class="layer3 spacer2"></div>
+    <div class="center red">
+        <p2>Contacts</p2>
+    </div>
+
+    <div class="center red">
+        <p1>
+            <p1>Email:</p1>
+            <a onclick="copy()">elabbe@ualberta.ca</a>
+            <a target="_blank" href="https://www.linkedin.com/in/ethan-labbe/">
+                <img class="icon" src="linlogo.png" alt="logo1">
+            </a>
+            <a target="_blank" href="https://github.com/EthanLabb"> <img class="icon" src="gitlogo.png" alt="logo2"> </a>
+        </p1>
+    </div>
+
+    <script>
+        function copy() {
+            navigator.clipboard.writeText("elabbe@ualberta.ca");
+            window.alert("Email Copied")
+        }
+    </script>
+
+</body>
+
+</html>
