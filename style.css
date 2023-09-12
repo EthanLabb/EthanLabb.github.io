@@ -9,6 +9,10 @@
                 max-width: 100px;
             }
 
+            .lrgpic{
+                max-width: 100px;
+            }
+
             .logo{
                 max-width: 20px;
             }
@@ -92,6 +96,10 @@
             height:200px;
          }
 
+         .lrgpic{
+            width:600px;
+            height:350px;
+         }
          .logo{
             width: 70px;
          }
