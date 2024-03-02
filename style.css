@@ -168,19 +168,19 @@
          }
 
          .layer1 {
-             background-image: url('./upwave1.svg');
+             background-image: url('external/upwave1.svg');
          }
 
          .layer2 {
-             background-image: url('./rightstep2.png');
+             background-image: url('external/rightstep2.png');
          }
 
          .layer3 {
-             background-image: url('./btmwave.svg');
+             background-image: url('external/btmwave.svg');
          }
 
          .layer4 {
-             background-image: url('./dwnwave.svg');
+             background-image: url('external/dwnwave.svg');
          }
 
          .flip {
